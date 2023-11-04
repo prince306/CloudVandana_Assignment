@@ -1,0 +1,27 @@
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .form-label {
+      display: inline-block;
+      width: 150px;
+      text-align: right;
+      margin-right: 10px;
+    }
+    .form-input {
+      width: 300px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    .form-submit {
+      margin-right: 10px;
+    }

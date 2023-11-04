@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Survey Form</h2>
+    <form id="survey-form">
+      <div>
+        <label class="form-label" for="first-name">First Name:</label>
+        <input class="form-input" type="text" id="first-name" name="first-name" required>
+      </div>
+      <div>
+        <label class="form-label" for="last-name">Last Name:</label>
+        <input class="form-input" type="text" id="last-name" name="last-name" required>
+      </div>
+      <div>
+        <label class="form-label" for="dob">Date of Birth:</label>
+        <input class="form-input" type="date" id="dob" name="dob" required>
+      </div>
+      <div>
+        <label class="form-label" for="country">Country:</label>
+        <select class="form-input" id="country" name="country" required>
+          <option value="">Select Country</option>
+          <option value="India">India</option>
+          <option value="Australia">Australia</option>
+          <option value="Canada">Canada</option>
+          <option value="New Zealand">New Zealand</option>
+          <option value="China">China</option>
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="UK">UK</option>
+        </select>
+      </div>
+      <div>
+        <label class="form-label">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <label class="form-label" for="profession">Profession:</label>
+        <input class="form-input" type="text" id="profession" name="profession" required>
+      </div>
+      <div>
+        <label class="form-label" for="email">Email:</label>
+        <input class="form-input" type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label class="form-label" for="mobile">Mobile Number:</label>
+        <input class="form-input" type="tel" id="mobile" name="mobile" required>
+      </div>
+      <button type="submit" class="form-submit">Submit</button>
+      <button type="button" onclick="resetForm()">Reset</button>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
